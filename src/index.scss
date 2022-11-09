@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Europa-Regular';
+  src: url('./assets/fonts/23c0fcab84d99da0de762de7e220a6e1.eot');
+  src: url('./assets/fonts/23c0fcab84d99da0de762de7e220a6e1.eot?#iefix')
+      format('embedded-opentype'),
+    url('./assets/fonts/23c0fcab84d99da0de762de7e220a6e1.woff2') format('woff2'),
+    url('./assets/fonts/23c0fcab84d99da0de762de7e220a6e1.woff') format('woff'),
+    url('./assets/fonts/23c0fcab84d99da0de762de7e220a6e1.ttf')
+      format('truetype'),
+    url('./assets/fonts/23c0fcab84d99da0de762de7e220a6e1.svg#Europa Regular')
+      format('svg');
+}
+
+@font-face {
+  font-family: 'Europa-Bold';
+  src: url('./assets/fonts/d3bfee78e8ead45d9057a95bb6ff5de8.eot');
+  src: url('./assets/fonts/d3bfee78e8ead45d9057a95bb6ff5de8.eot?#iefix')
+      format('embedded-opentype'),
+    url('./assets/fonts/d3bfee78e8ead45d9057a95bb6ff5de8.woff2') format('woff2'),
+    url('./assets/fonts/d3bfee78e8ead45d9057a95bb6ff5de8.woff') format('woff'),
+    url('./assets/fonts/d3bfee78e8ead45d9057a95bb6ff5de8.ttf')
+      format('truetype'),
+    url('./assets/fonts/d3bfee78e8ead45d9057a95bb6ff5de8.svg#Europa-Bold')
+      format('svg');
+}
+
+@font-face {
+  font-family: 'funky';
+  src: url('./assets/fonts/FunkyRundkopfTwoNF.ttf');
+}
+
+@font-face {
+  font-family: 'elite';
+  src: url('./assets/fonts/elitedangerbold.ttf');
+}
+@font-face {
+  font-family: 'library';
+  src: url('./assets/fonts/Library 3 am.otf');
+}
+@font-face {
+  font-family: 'brain';
+  src: url('./assets/fonts/Brain Wants.otf');
+}
+* {
+  outline: none;
+}
+
+html,
+body,
+#root {
+  background-color: black;
+  font-family: 'brain';
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-slide {
+  outline: none;
+  width: unset !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 6px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
